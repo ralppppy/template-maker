@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/template-maker/static/css/main.8edcbbc6.chunk.css",
+    "main.js": "/template-maker/static/js/main.0c6f46f8.chunk.js",
+    "main.js.map": "/template-maker/static/js/main.0c6f46f8.chunk.js.map",
+    "runtime-main.js": "/template-maker/static/js/runtime-main.2d6f8215.js",
+    "runtime-main.js.map": "/template-maker/static/js/runtime-main.2d6f8215.js.map",
+    "static/css/2.11829350.chunk.css": "/template-maker/static/css/2.11829350.chunk.css",
+    "static/js/2.cb9bd8f7.chunk.js": "/template-maker/static/js/2.cb9bd8f7.chunk.js",
+    "static/js/2.cb9bd8f7.chunk.js.map": "/template-maker/static/js/2.cb9bd8f7.chunk.js.map",
+    "index.html": "/template-maker/index.html",
+    "precache-manifest.f47cb039e79ab24f08f7731f2211b385.js": "/template-maker/precache-manifest.f47cb039e79ab24f08f7731f2211b385.js",
+    "service-worker.js": "/template-maker/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/template-maker/static/css/2.11829350.chunk.css.map",
+    "static/css/main.8edcbbc6.chunk.css.map": "/template-maker/static/css/main.8edcbbc6.chunk.css.map",
+    "static/js/2.cb9bd8f7.chunk.js.LICENSE.txt": "/template-maker/static/js/2.cb9bd8f7.chunk.js.LICENSE.txt",
+    "static/media/background.png": "/template-maker/static/media/background.be90085e.png",
+    "static/media/dress.jpg": "/template-maker/static/media/dress.9b40f293.jpg",
+    "static/media/logo.svg": "/template-maker/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d6f8215.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.cb9bd8f7.chunk.js",
+    "static/css/main.8edcbbc6.chunk.css",
+    "static/js/main.0c6f46f8.chunk.js"
+  ]
+}
