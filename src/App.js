@@ -16,7 +16,7 @@ import {
 
 function App() {
   const [file, setFile] = useState(null);
-  const [price, setPrice] = useState(500);
+  const [price, setPrice] = useState(5000);
   const [priceOff, setPriceOff] = useState(50);
 
   let backgroundSize = {
@@ -73,7 +73,7 @@ function App() {
     }
   } else {
     if (!isMobile) {
-      devider = 4;
+      devider = 3;
     } else {
       devider = 4;
     }
@@ -243,18 +243,18 @@ function App() {
 
         <h1
           style={{
-            fontSize: 58,
+            fontSize: 50,
             fontStyle: "italic",
             zIndex: 4,
             position: "absolute",
-            top: toAddTop + backgroundSize.height / 7 + topPrice + 10,
+            top: toAddTop + backgroundSize.height / 7 + topPrice + 15,
             left:
               toAddBot +
               backgroundSize.width / 2 -
               imageSize.width / 2 -
               200 +
               200 / 3.5 +
-              50 / devider,
+              85 / devider,
           }}
         >
           {price} PHP
