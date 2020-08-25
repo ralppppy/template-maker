@@ -226,44 +226,54 @@ function App() {
               imageSize.width / 2 -
               200 +
               200 / 3.5,
-            minWidth: 200,
-            minHeight: 50,
+            minWidth: 250,
+            minHeight: 100,
             border: "6px solid black",
             backgroundColor: "#fff",
             boxShadow: "5px 5px rgba(0,0,0,0.2)",
           }}
         ></div>
 
+        {/* font-size: 58px;
+    z-index: 4;
+    position: absolute;
+    top: 315.929px;
+    left: 389.143px;
+    font-style: italic; */}
+
         <h1
           style={{
+            fontSize: 58,
+            fontStyle: "italic",
             zIndex: 4,
             position: "absolute",
-            top: toAddTop + backgroundSize.height / 7 + topPrice,
+            top: toAddTop + backgroundSize.height / 7 + topPrice + 10,
             left:
               toAddBot +
               backgroundSize.width / 2 -
               imageSize.width / 2 -
               200 +
               200 / 3.5 +
-              100 / devider,
+              50 / devider,
           }}
         >
           {price} PHP
         </h1>
         <h3
           style={{
+            fontSize: 38,
             zIndex: 4,
             position: "absolute",
-            top: toAddTop + backgroundSize.height / 7 + 150 - 50 / 4 + 65,
+            top: toAddTop + backgroundSize.height / 7 + 150 - 50 / 4 + 65 + 50,
             left:
               toAddBot +
               backgroundSize.width / 2 -
               imageSize.width / 2 -
               200 +
-              200 / 3.5,
+              100,
           }}
         >
-          {priceOff}% OFF!!
+          {parseInt(priceOff) !== 0 && <> {priceOff}% OFF!!</>}
         </h3>
       </div>
     </div>
